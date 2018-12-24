@@ -1,0 +1,45 @@
+MODEL/DB Fields
+###### Listing
+id:INT
+realtor: INT foreingKey[realtor]
+title: STRING
+Address: STRING
+city: STRING
+State: STRING
+zip: STRING
+description: TEXT
+price: INT
+bedrooms: INT
+bathrooms: INT
+garage: INT  - default 0
+sqft: INT
+lot_size: FLOAT
+is_publish: BOOL - default true
+list_date: DATE
+photo_main: STRING
+photo_1: STRING
+photo_2 STRING
+photo_3: STRING
+photo_4: STRING
+photo_5: STRING
+photo_6: STRING
+###### Realtor
+id: INT
+name: STRING
+photo_1: STRING
+description: TEXT
+email: STRING
+phone: STRING
+is_mvp: BOOL - default false
+hire_date: DATE
+
+###### Contact
+id: INT
+user_id: INT 
+listing: int
+listing_id: INT
+name: STRING
+email: STRING
+phone: STRING
+msg: TEXT
+Contact_date: DATE
