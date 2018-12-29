@@ -74,4 +74,5 @@ state_choices = {
     'WV':'West Virginia',
     'WI':'Wisconsin',
     'WY':'Wyoming',
+    'Rio Negro':'RN'
 }
